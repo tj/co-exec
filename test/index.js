@@ -23,3 +23,13 @@ describe('exec(cmd)', function(){
     });
   })
 })
+
+describe('exec(cmd, opts)', function(){
+  it('should set options', function(done){
+    co(function *(){
+      var ret = yield exec('echo hello', { encoding: 'base64' });
+      new Buffer(ret, 'base64').toString().should.equal('hello\n');
+      done();
+    });
+  })
+})
