@@ -1,6 +1,6 @@
 {
   "name": "co-exec",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "exec() wrapper for 'co'",
   "keywords": [
     "async",
@@ -12,7 +12,7 @@
   "devDependencies": {
     "should": "~1.2.2",
     "mocha": "~1.10.0",
-    "co": "~1.0.0"
+    "co": "~1.5.1"
   },
   "license": "MIT"
 }
