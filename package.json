@@ -2,6 +2,7 @@
   "name": "co-exec",
   "version": "1.1.0",
   "description": "exec() wrapper for 'co'",
+  "repository": "visionmedia/co-exec",
   "keywords": [
     "async",
     "flow",
